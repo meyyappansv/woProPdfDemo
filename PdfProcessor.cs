@@ -49,5 +49,10 @@ namespace WoProPdfDemo
                 MessageBox.Show($"An error occurred: {ex.Message}");
             }
         }
+
+        public PdfViewer getpdfViewer()
+        {
+            return pdfViewer;
+        }
     }
 }
